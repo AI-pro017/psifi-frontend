@@ -36,7 +36,10 @@ Create a `.env.local` file that points at the backend:
 
 ```env
 NEXT_PUBLIC_BACKEND_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_PINATA_JWT=your-pinata-jwt
 ```
+
+The Pinata JWT is used to upload profile pictures to IPFS during sign up. Use a scoped key that can only pin files.
 
 Then run:
 
